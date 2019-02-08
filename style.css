@@ -1,0 +1,70 @@
+#boxes{
+    width:80%;
+    margin:auto;
+    text-align: center;
+  }
+  
+  #btns{
+    padding:20px;
+    background:#f4f4f4;
+    margin-bottom:20px;
+  }
+  
+  #btns button{
+    background:#fff;
+    padding:5px 10px;
+    border:0;
+  }
+  
+  #btns .fa{
+    font-size:30px;
+  }
+  
+  #btns .fa-play-circle{
+    color:green;
+  }
+  
+  #btns .fa-pause-circle{
+    color:red;
+  }
+  
+  .box{
+    position: relative;
+    width:100px;
+    height: 100px;
+    margin:4px;
+    display:inline-block;
+  }
+  
+  .red{background-color:red}
+  .blue{background-color:blue}
+  .green{background-color:green}
+  .yellow{background-color:yellow}
+  .black{background-color:black}
+  .grey{background-color:grey}
+
+  .barbell{
+      position: relative;
+      z-index: -1;
+      margin:75px;
+      width: 600px;
+      height: 10px;
+      display:inline-block;
+      opacity: 0;
+  }
+
+  .plate{
+      position: relative;
+      width: 10px;
+      height: 150px;
+      display:inline-block;
+      opacity: 0;
+  }
+
+  .stronger{
+    position: relative;
+    opacity: 0;
+    margin-top: 150px;
+    font-family: Impact;
+    font-size: 60px;
+  }
